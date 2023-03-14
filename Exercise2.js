@@ -21,3 +21,17 @@ ageNow = (birthYear) => {
 }
 
 console.log(ageNow(1991));
+
+
+// name and age
+
+const greetings = (name1, age1, name2, age2, name3, age3) => {
+  console.log(
+    `Welcome ${name1}, you are ${ageNow(
+      age1
+    )}. Welcome ${name2}, you are ${ageNow(
+      age2
+    )}. Welcome ${name3}, you are ${ageNow(age3)}.`
+  );
+};
+
